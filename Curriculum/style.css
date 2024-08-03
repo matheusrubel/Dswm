@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header{
+    background-color: rgb(223, 190, 150);
+}
+footer{
+    background-color: rgb(190, 153, 107);
+}
+h2{
+    background-color: blanchedalmond;
+}
