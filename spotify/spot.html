@@ -5,7 +5,6 @@
     <meta charset="PT-BR">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilo.css">
     <title>Música para todos - Spotify</title>
 
     <!-- Bootstrap CSS -->
@@ -15,9 +14,60 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/spotify.svg"width="142" alt="">
+                </a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link"href="">Premium</a></li>
+                        <li class="nav-item"><a class="nav-link"href="">Ajuda</a></li>
+                        <li class="nav-item"><a class="nav-link"href="">Baixar</a></li>
+                        <li class="nav-item divisor"></li>
+                        <li class="nav-item"><a class="nav-link"href="">Inscrever-se</a></li>
+                        <li class="nav-item"><a class="nav-link"href="">Entrar</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="d-flex">
+        <div class="container align-self-center">
+            <div class="row">
+                <div class="col-md-12 capa">
+                    <div id="carousel-spotify"class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner capa">
+                            <div class="carousel-item active">
+                                <h1>Música para todos</h1>
+                                <a href=""class="btn btn-lg btn-custom btn-roxo">
+                                    Aproveite o Spotify Free
+                                </a>
+                                <a href=""class="btn btn-lg btn-custom btn-branco">
+                                    Obter Spotify Premium
+                                </a>
+                        
+                            </div>
+                        </div>
+                    
+                    </div>
+            
+            
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 
